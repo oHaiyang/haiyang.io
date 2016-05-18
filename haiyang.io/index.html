@@ -23,6 +23,28 @@
       height: 100%;
     }
 
+    a {
+      text-decoration: none;
+      /*font-weight: bold;*/
+      color: black;
+      display: inline-block;
+      /*border-bottom: 1px dotted hsla(203,89%,53%,1.00);*/
+      /*border-bottom: 1px dotted hsla(197,88%,66%,1.00);*/
+      /*border-bottom: 1px dotted hsla(5,74%,59%,1.00);*/
+      /*border-bottom: 1px dotted hsla(122,69%,38%,1.00);*/
+      border-bottom: 1px dotted hsla(163, 54%, 41%, 1.00);
+    }
+
+    a:hover {
+      text-decoration: none;
+      transition: 0.4s;
+      /*color: hsla(203,89%,53%,1.00);*/
+      /*color: hsla(197,88%,66%,1.00);*/
+      /*color: hsla(5,74%,59%,1.00);*/
+      /*color: hsla(122,69%,38%,1.00);*/
+      color: hsla(163, 54%, 41%, 1.00);
+    }
+
     #haiyang {
       width: 880px;
       position: absolute;
@@ -45,16 +67,17 @@
       bottom: 0;
       right: 50px;
       font-size: 14px;
-      color: hsla(0,0%,70%,.76);
+      color: hsla(0, 0%, 70%, .76);
       font-family: "custom-HYQuanTangShiJ";
     }
 
     footer a {
-      text-decoration: none;
+      border: none;
       color: hsla(0, 0%, 71%, 1);
     }
-    footer a:visited {
-      color: hsla(0,0%,70%,.76);
+
+    footer a:hover {
+      color: hsla(0, 0%, 71%, 1);
     }
   </style>
 </head>
@@ -65,7 +88,11 @@
     <div id="intro">
       <p><span id='hello'>你好</span>，我是海洋。</p>
       <p>一名初学的前端/全栈工程师，正在寻求一份实习工作。</p>
-      <p>我写<a href="http://hiaero.net">博客</a>，打 <a href="http://dotamax.com/player/detail/157130889/" target="_blank">Dota2</a>，偶尔发<a href="http://photos.hiaero.net">照片</a>，</p>
+      <p>我写
+        <a href="http://hiaero.net">博客</a>，打
+        <a href="http://dotamax.com/player/detail/157130889/" target="_blank">Dota2</a>，偶尔发
+        <a href="http://photos.hiaero.net">照片</a>，
+      </p>
       <p>也使用 <a href="https://github.com/oHaiyang" target="_blank">GitHub</a>，<a href="https://twitter.com/oHaiyang" target="_blank">Twitter</a>，<a href="https://cn.linkedin.com/in/phycgp" target="_blank">Linkedin</a>.</p>
       <p>还开设了前端 UI 实现的一个示例 <a href="https://github.com/oHaiyang/implementingUI">项目</a>。</p>
       <p>phycgp@gmail.com，欢迎联系。</p>
