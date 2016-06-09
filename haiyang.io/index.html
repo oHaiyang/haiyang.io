@@ -3,105 +3,215 @@
 
 <head>
   <title>海洋的首页</title>
-  <meta charset="utf-8">
-  <meta name="keywords" content="haiyang,海洋,foostack,hiaero,front-end">
-  <meta name="description" content="海洋的个人网站">
-  <link rel="icon" href="P_black_64.png" type="image/png">
-  <link rel="apple-touch-icon" href="P_black_152.png" type="image/png">
-  <link rel="prerender" href="http://photos.hiaero.net">
-  <link rel="preconnect" href="http://hiaero.net">
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <meta name='keywords' content='haiyang,海洋,foostack,hiaero,front-end'>
+  <meta name='description' content='海洋的个人网站'>
+  <link rel='icon' href='P_black_64.png' type='image/png'>
+  <link rel='apple-touch-icon' href='P_black_152.png' type='image/png'>
+  <link rel='prerender' href='http://photos.hiaero.net'>
+  <link rel='preconnect' href='http://hiaero.net'>
+  <link rel='stylesheet' href='./fontello.css'>
   <style>
     @font-face {
-      font-family: "custom-HYQuanTangShiJ";
-      src: url("HYQuanTangShiJ.ttf") format("truetype"), url("HYQuanTangShiJ.woff") format("woff");
-      font-style: normal;
-      font-weight: normal;
+      font-family: 'custom-HYQuanTangShiJ';
+      src: url('HYQuanTangShiJ.ttf') format('truetype'), url('HYQuanTangShiJ.woff') format('woff');
     }
 
-    html,
-    body {
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    html, body {
       height: 100%;
+    }
+
+    body {
+      font-family: 'custom-HYQuanTangShiJ';
     }
 
     a {
       text-decoration: none;
-      /*font-weight: bold;*/
-      color: black;
-      display: inline-block;
-      /*border-bottom: 1px dotted hsla(203,89%,53%,1.00);*/
-      /*border-bottom: 1px dotted hsla(197,88%,66%,1.00);*/
-      /*border-bottom: 1px dotted hsla(5,74%,59%,1.00);*/
-      /*border-bottom: 1px dotted hsla(122,69%,38%,1.00);*/
-      border-bottom: 1px dotted hsla(163, 54%, 41%, 1.00);
+      color: hsla(163, 54%, 41%, 1.00);
+      /*border-bottom: 1px dotted hsla(163, 54%, 41%, 1.00);*/
     }
 
-    a:hover {
+    /*a:hover {
       text-decoration: none;
       transition: 0.4s;
-      /*color: hsla(203,89%,53%,1.00);*/
-      /*color: hsla(197,88%,66%,1.00);*/
-      /*color: hsla(5,74%,59%,1.00);*/
-      /*color: hsla(122,69%,38%,1.00);*/
       color: hsla(163, 54%, 41%, 1.00);
-    }
+    }*/
 
     #haiyang {
-      width: 880px;
-      position: absolute;
-      top: 13%;
-      transform: translateX(-50%);
-      left: 50%;
-      text-align: center;
-      font-family: "custom-HYQuanTangShiJ";
-      font-size: 22px;
+      position: relative;
+      width: 100%;
+      min-height: 100%;
+      /*height: 100%;*/
+      padding-top: 1em;
+      padding-bottom: 3em;
     }
 
-    #welcome {
-      font-sytle: bold;
-      font-size: 30px;
-      margin-bottom: 35px;
+    #smile {
+      text-align: center;
+      font-size: 3em;
+    }
+
+    #intro {
+      padding: 0 1.5em;
+      margin-top: 4em;
+      line-height: 2em;
+    }
+
+    #intro p {
+      margin-top: 1.5em;
+    }
+
+    #content {
+      text-indent: 2em;
+    }
+
+    #contact {
+      text-align: right;
+    }
+
+    #social-icons {
+      display: none;
     }
 
     footer {
       position: absolute;
-      bottom: 0;
-      right: 50px;
-      font-size: 14px;
+      bottom: 1em;
+      right: 1em;
+      font-size: 1rem;
       color: hsla(0, 0%, 70%, .76);
-      font-family: "custom-HYQuanTangShiJ";
     }
 
     footer a {
-      border: none;
+      /*border: none;*/
       color: hsla(0, 0%, 71%, 1);
     }
 
-    footer a:hover {
-      color: hsla(0, 0%, 71%, 1);
+    @media screen and (min-width: 420px) {
+      #smile {
+        font-size: 3.5em;
+      }
+      #intro {
+        font-size: 1.2em;
+        /*padding: 0 5.5em;*/
+      }
     }
+
+    @media screen and (min-width: 480px) {
+      #intro {
+        font-size: 1.3em;
+        /*padding: 0 5.5em;*/
+      }
+    }
+
+    @media screen and (min-width: 640px) {
+      #intro {
+        font-size: 1.3em;
+        padding: 0 8%;
+      }
+    }
+
+    @media screen and (min-width: 780px) {
+      * {
+        margin: 0;
+      }
+      #haiyang {
+        padding: 0;
+      }
+      #intro {
+        margin: 0;
+      }
+      #intro p {
+        margin-top: 0;
+      }
+      #social, #contact {
+        display: none;
+      }
+      #smile {
+        display: block;
+        position: fixed;
+        transform: translate(-100%, -100%);
+        left: 38%;
+        top: 38%;
+        font-size: 1.5em;
+        /*color: hsla(0, 0%, 71%, 1);*/
+        padding: 0 0.8rem 0.5rem 0;
+      }
+      #hello {
+        display: block;
+        position: fixed;
+        transform: translateY(-100%);
+        left: 38%;
+        top: 38%;
+        padding: 0.3rem 0 0.5rem 0.5rem;
+        line-height: 1;
+        border-left: 1px dotted hsla(163, 54%, 41%, 1.00);
+      }
+      #social-icons {
+        display: block;
+        position: fixed;
+        transform: translateX(-100%);
+        left: 38%;
+        top: 38%;
+        padding: 0.5rem 0.5rem 0 0.5rem;
+        border-top: 1px dotted hsla(163, 54%, 41%, 1.00);
+        /*width: 8%;*/
+      }
+      #content {
+        display: block;
+        position: fixed;
+        left: 38%;
+        top: 38%;
+        width: 38%;
+        max-width: 420px;
+        padding: 0.5rem 0 0 0.5rem;
+        text-indent: 0;
+        border-left: 1px dotted hsla(163, 54%, 41%, 1.00);
+        border-top: 1px dotted hsla(163, 54%, 41%, 1.00);
+      }
+      .icons {
+        display: block;
+        color: black;
+        color: hsla(0, 0%, 71%, 1);
+      }
+    }
+    /*footer a:hover {
+      color: hsla(0, 0%, 71%, 1);
+    }*/
   </style>
 </head>
 
 <body>
-  <div id="haiyang">
-    <p id="welcome">: )</p>
-    <div id="intro">
-      <p><span id='hello'>你好</span>，我是海洋。</p>
-      <p>一名初学的前端/全栈工程师，正在寻求一份实习工作。</p>
-      <p>我写
-        <a href="http://hiaero.net">博客</a>，打
-        <a href="http://dotamax.com/player/detail/157130889/" target="_blank">Dota2</a>，偶尔发
-        <a href="http://photos.hiaero.net">照片</a>，
-      </p>
-      <p>也使用 <a href="https://github.com/oHaiyang" target="_blank">GitHub</a>，<a href="https://twitter.com/oHaiyang" target="_blank">Twitter</a>，<a href="https://cn.linkedin.com/in/phycgp" target="_blank">Linkedin</a>.</p>
-      <p>还开设了前端 UI 实现的一个示例 <a href="https://github.com/oHaiyang/implementingUI">项目</a>。</p>
-      <p>phycgp@gmail.com，欢迎联系。</p>
+  <div id='haiyang'>
+    <h1 id='smile'>: )</h1>
+    <div id='intro'>
+      <p id='hello'>你好，我是海洋。</p>
+      <p id='content'><span id='do'>一名初学的前端/全栈工程师，正在寻求一份实习工作。</span>
+      我写
+        <a href='http://hiaero.net'>博客</a>，打
+        <a href='http://dotamax.com/player/detail/157130889/' target='_blank'>Dota2</a>，偶尔发
+        <a href='http://photos.hiaero.net'>照片</a>， <span id='social'>也使用
+        <a href='https://github.com/oHaiyang' target='_blank'>GitHub</a>，
+        <a href='https://twitter.com/oHaiyang' target='_blank'>Twitter</a>，
+        <a href='https://cn.linkedin.com/in/phycgp' target='_blank'>Linkedin</a>.</span>
+      还开设了前端 UI 实现的一个示例 <a href='https://github.com/oHaiyang/implementingUI'>项目</a>。</p>
+      <p id='contact'>phycgp@gmail.com，欢迎联系。</p>
+      <div id='social-icons'>
+        <a href='https://github.com/oHaiyang' target='_blank'><i class='icons icon-github'></i></a>
+        <a href='https://twitter.com/oHaiyang' target='_blank'><i class='icons icon-twitter'></i></a>
+        <a href='https://cn.linkedin.com/in/phycgp' target='_blank'><i class='icons icon-linkedin'></i></a>
+      </div>
     </div>
+    <footer>
+      <p>font-family: <a target='_blank' href='https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-7380099912.30.L6MdOM&id=44548922111'>汉仪全唐诗简体</a></p>
+    </footer>
   </div>
 
-  <footer>
-    <p>font-family: <a target="_blank" href="https://item.taobao.com/item.htm?spm=a1z10.1-c.w4004-7380099912.30.L6MdOM&id=44548922111">汉仪全唐诗简体</a></p>
-  </footer>
   <script>
     (function(i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r;
