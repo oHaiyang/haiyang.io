@@ -11,7 +11,7 @@
   <link rel='apple-touch-icon' href='P_black_152.png' type='image/png'>
   <link rel='prerender' href='http://photos.hiaero.net'>
   <link rel='preconnect' href='http://hiaero.net'>
-  <link rel='stylesheet' href='./fontello.css'>
+  <link rel='stylesheet' media="(min-width: 780px)" href='./fontello.css'>
   <style>
     @font-face {
       font-family: 'custom-HYQuanTangShiJ';
@@ -33,21 +33,21 @@
 
     a {
       text-decoration: none;
+      color: black;
       color: hsla(163, 54%, 41%, 1.00);
       /*border-bottom: 1px dotted hsla(163, 54%, 41%, 1.00);*/
     }
 
-    /*a:hover {
+    a:hover {
       text-decoration: none;
       transition: 0.4s;
       color: hsla(163, 54%, 41%, 1.00);
-    }*/
+    }
 
     #haiyang {
       position: relative;
       width: 100%;
       min-height: 100%;
-      /*height: 100%;*/
       padding-top: 1em;
       padding-bottom: 3em;
     }
@@ -88,7 +88,11 @@
     }
 
     footer a {
-      /*border: none;*/
+      border: none;
+      color: hsla(0, 0%, 71%, 1);
+    }
+
+    footer a:hover {
       color: hsla(0, 0%, 71%, 1);
     }
 
@@ -98,14 +102,12 @@
       }
       #intro {
         font-size: 1.2em;
-        /*padding: 0 5.5em;*/
       }
     }
 
     @media screen and (min-width: 480px) {
       #intro {
         font-size: 1.3em;
-        /*padding: 0 5.5em;*/
       }
     }
 
@@ -139,7 +141,6 @@
         left: 38%;
         top: 38%;
         font-size: 1.5em;
-        /*color: hsla(0, 0%, 71%, 1);*/
         padding: 0 0.8rem 0.5rem 0;
       }
       #hello {
@@ -179,10 +180,11 @@
         color: black;
         color: hsla(0, 0%, 71%, 1);
       }
+      .icons:hover {
+        transition: 0.4s;
+        color: hsla(163, 54%, 41%, 1.00);
+      }
     }
-    /*footer a:hover {
-      color: hsla(0, 0%, 71%, 1);
-    }*/
   </style>
 </head>
 
