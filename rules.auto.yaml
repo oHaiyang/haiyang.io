@@ -1048,6 +1048,7 @@ payload:
   - DOMAIN-SUFFIX,opendemocracy.net
   - DOMAIN-SUFFIX,opendesktop.org
   - DOMAIN-SUFFIX,openervpn.eu
+  - DOMAIN-SUFFIX,openhab.org
   - DOMAIN-SUFFIX,openvpn.net
   - DOMAIN-SUFFIX,openwrt.org
   - DOMAIN-SUFFIX,orient-doll.com
