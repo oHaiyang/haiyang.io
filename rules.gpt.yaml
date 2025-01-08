@@ -4,3 +4,6 @@ payload:
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,cdn.usefathom.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,oaistatic.com
