@@ -8,3 +8,4 @@ payload:
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,openrouter.ai
