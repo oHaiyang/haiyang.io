@@ -71,7 +71,6 @@ payload:
   - DOMAIN-SUFFIX,speakerdeck.com
   - DOMAIN-SUFFIX,optimizely.com
   - DOMAIN-SUFFIX,economist.com
-  - DOMAIN-SUFFIX,hockeyapp.net
   - DOMAIN-SUFFIX,css-weekly.com
   - DOMAIN-SUFFIX,codepen.io
   - DOMAIN-SUFFIX,ogp.me
@@ -756,6 +755,8 @@ payload:
   - DOMAIN-SUFFIX,hkptu.org
   - DOMAIN-SUFFIX,hk-pub.com
   - DOMAIN-SUFFIX,hnjhj.com
+  - DOMAIN-SUFFIX,hockeyapp.net
+  - DOMAIN-SUFFIX,home-assistant.io
   - DOMAIN-SUFFIX,holyspiritspeaks.org
   - DOMAIN-SUFFIX,hongzhi.li
   - DOMAIN-SUFFIX,hootsuite.com
