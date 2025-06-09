@@ -888,6 +888,7 @@ payload:
   - DOMAIN-SUFFIX,libhunt.com
   - DOMAIN-SUFFIX,line.me
   - DOMAIN-SUFFIX,linkideo.com
+  - DOMAIN-SUFFIX,linkedin.com
   - DOMAIN-SUFFIX,linksalpha.com
   - DOMAIN-SUFFIX,linuxquestions.org
   - DOMAIN-SUFFIX,lipuman.com
