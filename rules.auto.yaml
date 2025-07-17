@@ -93,7 +93,6 @@ payload:
   - DOMAIN-SUFFIX,macid.co
   - DOMAIN-SUFFIX,headwayapp.co
   - DOMAIN-SUFFIX,firebaseio.com
-  - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,firebase.com
   - DOMAIN-SUFFIX,makeitopen.com
   - DOMAIN-SUFFIX,unsplash.it
@@ -808,6 +807,8 @@ payload:
   - DOMAIN-SUFFIX,internationalrivers.org
   - DOMAIN-SUFFIX,internet.org
   - DOMAIN-SUFFIX,internetfreedom.org
+  - DOMAIN-SUFFIX,intercom.help
+  - DOMAIN-SUFFIX,intercom.io
   - DOMAIN-SUFFIX,inxian.com
   - DOMAIN-SUFFIX,iphonix.fr
   - DOMAIN-SUFFIX,ipobar.com
