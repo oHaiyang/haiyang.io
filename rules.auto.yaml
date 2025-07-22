@@ -1526,6 +1526,7 @@ payload:
   - DOMAIN-SUFFIX,wikipedia.org
   - DOMAIN-SUFFIX,willw.net
   - DOMAIN-SUFFIX,wireshark.org
+  - DOMAIN-SUFFIX,wireguard.com
   - DOMAIN-SUFFIX,wixoo.com
   - DOMAIN-SUFFIX,wnacg.com
   - DOMAIN-SUFFIX,wolfax.com
