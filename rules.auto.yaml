@@ -16,7 +16,6 @@ payload:
   - DOMAIN-SUFFIX,slack.com
   - DOMAIN-SUFFIX,qt.io
   - DOMAIN-SUFFIX,glidejs.com
-  - DOMAIN-SUFFIX,rust-lang.org
   - DOMAIN-SUFFIX,www.rust-lang.org
   - DOMAIN-SUFFIX,ci.bearychat.com
   - DOMAIN-SUFFIX,ingorichter.blogspot.co.uk
@@ -1204,7 +1203,9 @@ payload:
   - DOMAIN-SUFFIX,rthk.hk
   - DOMAIN-SUFFIX,rthk.org.hk
   - DOMAIN-SUFFIX,rushbee.com
+  - DOMAIN-SUFFIX,rustdesk.com
   - DOMAIN-SUFFIX,ruyiseek.com
+  - DOMAIN-SUFFIX,rust-lang.org
   - DOMAIN-SUFFIX,rxhj.net
   - DOMAIN-SUFFIX,rxjs.dev
   - DOMAIN-SUFFIX,s1s1s1.com
