@@ -1,13 +1,14 @@
 payload:
-  - DOMAIN-SUFFIX,openai.com
-  - DOMAIN-SUFFIX,chatgpt.com
-  - DOMAIN-SUFFIX,bard.google.com
-  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,cdn.usefathom.com
+  - DOMAIN-SUFFIX,chatgpt.com
   - DOMAIN-SUFFIX,claude.ai
-  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,groq.com
+  - DOMAIN-SUFFIX,manus.im
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openrouter.ai
   - DOMAIN-SUFFIX,tiktok.com
-  - DOMAIN-SUFFIX,manus.im
