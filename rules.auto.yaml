@@ -654,6 +654,7 @@ payload:
   - DOMAIN-SUFFIX,getlantern.org
   - DOMAIN-SUFFIX,getuploader.com
   - DOMAIN-SUFFIX,ggpht.com
+  - DOMAIN-SUFFIX,ghcr.io
   - DOMAIN-SUFFIX,gigacircle.com
   - DOMAIN-SUFFIX,giga-web.jp
   - DOMAIN-SUFFIX,girlbanker.com
