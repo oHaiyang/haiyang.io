@@ -320,6 +320,7 @@ payload:
   - DOMAIN-SUFFIX,bywave.fun
   - DOMAIN-SUFFIX,bywave.io
   - DOMAIN-SUFFIX,bywa-1.art
+  - DOMAIN-SUFFIX,by.ltd
   - DOMAIN-SUFFIX,bzpics.com
   - DOMAIN-SUFFIX,cactusvpn.com
   - DOMAIN-SUFFIX,cafepress.com
@@ -1449,7 +1450,6 @@ payload:
   - DOMAIN-SUFFIX,urbandictionary.com
   - DOMAIN-SUFFIX,usa.gov
   - DOMAIN-SUFFIX,usejump.com
-  - DOMAIN-SUFFIX,user.by.ltd
   - DOMAIN-SUFFIX,ustream.tv
   - DOMAIN-SUFFIX,uwants.com
   - DOMAIN-SUFFIX,uyghurcongress.org
