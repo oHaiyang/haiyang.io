@@ -23,7 +23,6 @@ payload:
   - DOMAIN-SUFFIX,ant.design
   - DOMAIN-SUFFIX,pin-cong.com
   - DOMAIN-SUFFIX,cdn.rawgit.com
-  - DOMAIN-SUFFIX,bintray.com
   - DOMAIN-SUFFIX,virtualbox.org
   - DOMAIN-SUFFIX,nssurge.com
   - DOMAIN-SUFFIX,ac.uk
@@ -256,6 +255,7 @@ payload:
   - DOMAIN-SUFFIX,bigcommerce.com
   - DOMAIN-SUFFIX,bignews.org
   - DOMAIN-SUFFIX,bill2-software.com
+  - DOMAIN-SUFFIX,bintray.com
   - DOMAIN-SUFFIX,bit.ly
   - DOMAIN-SUFFIX,bitbucket.com
   - DOMAIN-SUFFIX,bitbucket.org
@@ -316,6 +316,10 @@ payload:
   - DOMAIN-SUFFIX,buzzhand.com
   - DOMAIN-SUFFIX,buzzhand.net
   - DOMAIN-SUFFIX,bwsj.hk
+  - DOMAIN-SUFFIX,bywave.pro
+  - DOMAIN-SUFFIX,bywave.fun
+  - DOMAIN-SUFFIX,bywave.io
+  - DOMAIN-SUFFIX,bywa-1.art
   - DOMAIN-SUFFIX,bzpics.com
   - DOMAIN-SUFFIX,cactusvpn.com
   - DOMAIN-SUFFIX,cafepress.com
@@ -683,9 +687,6 @@ payload:
   - DOMAIN-SUFFIX,gongwt.com
   - DOMAIN-SUFFIX,goo.gl
   - DOMAIN-SUFFIX,google.cn
-  - DOMAIN-SUFFIX,bywave.pro
-  - DOMAIN-SUFFIX,bywave.fun
-  - DOMAIN-SUFFIX,bywave.io
   - DOMAIN-SUFFIX,goodreads.com
   - DOMAIN-SUFFIX,google.co.jp
   - DOMAIN-SUFFIX,google.com.hk
