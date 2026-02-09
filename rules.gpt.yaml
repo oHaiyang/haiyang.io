@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,google-analytics.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,usercontent.goog
   - DOMAIN-SUFFIX,research.google
   - DOMAIN-SUFFIX,ai.google
   - DOMAIN-SUFFIX,googleapis.com
