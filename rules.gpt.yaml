@@ -4,6 +4,10 @@ payload:
   - DOMAIN-SUFFIX,google.dev
   - DOMAIN-SUFFIX,google.org
   - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,gstatic.com
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,googleusercontent.com
   - DOMAIN-SUFFIX,research.google
   - DOMAIN-SUFFIX,ai.google
   - DOMAIN-SUFFIX,googleapis.com
