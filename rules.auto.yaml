@@ -1615,6 +1615,7 @@ payload:
   - DOMAIN-SUFFIX,yzzk.com
   - DOMAIN-SUFFIX,zacebook.com
   - DOMAIN-SUFFIX,zaobao.com.sg
+  - DOMAIN-SUFFIX,zellij.dev
   - DOMAIN-SUFFIX,zengjinyan.org
   - DOMAIN-SUFFIX,zeutch.com
   - DOMAIN-SUFFIX,zfreet.com
