@@ -1162,6 +1162,7 @@ payload:
   - DOMAIN-SUFFIX,quran.com
   - DOMAIN-SUFFIX,quora.com
   - DOMAIN-SUFFIX,quoracdn.net
+  - DOMAIN-SUFFIX,rackspace.com
   - DOMAIN-SUFFIX,radio.com
   - DOMAIN-SUFFIX,radioaustralia.net.au
   - DOMAIN-SUFFIX,radiovncr.com
