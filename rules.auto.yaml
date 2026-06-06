@@ -199,6 +199,7 @@ payload:
   - DOMAIN-SUFFIX,angularjs.org
   - DOMAIN-SUFFIX,anontext.com
   - DOMAIN-SUFFIX,anthonycalzadilla.com
+  - DOMAIN-SUFFIX,anti-captcha.com
   - DOMAIN-SUFFIX,antiwave.net
   - DOMAIN-SUFFIX,aolnews.com
   - DOMAIN-SUFFIX,aomiwang.com
@@ -450,6 +451,7 @@ payload:
   - DOMAIN-SUFFIX,date-fns.org
   - DOMAIN-SUFFIX,dayabook.com
   - DOMAIN-SUFFIX,ddfprod.com
+  - DOMAIN-SUFFIX,deathbycaptcha.com
   - DOMAIN-SUFFIX,deck.ly
   - DOMAIN-SUFFIX,deepl.com
   - DOMAIN-SUFFIX,democrats.org
