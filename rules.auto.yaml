@@ -63,7 +63,6 @@ payload:
   - DOMAIN-SUFFIX,spotifycdn.com
   - DOMAIN-SUFFIX,scdn.co
   - DOMAIN-SUFFIX,kakapo.co
-  - DOMAIN-SUFFIX,zimuzu.tv
   - DOMAIN-SUFFIX,reactjsprogram.com
   - DOMAIN-SUFFIX,react-svgr.com
   - DOMAIN-SUFFIX,speakerdeck.com
@@ -1634,6 +1633,9 @@ payload:
   - DOMAIN-SUFFIX,zhinengluyou.com
   - DOMAIN-SUFFIX,zhongguotese.net
   - DOMAIN-SUFFIX,zhuichaguoji.org
+  - DOMAIN-SUFFIX,zimuzu.tv
+  - DOMAIN-SUFFIX,zimuku.org
+  - DOMAIN-SUFFIX,zmk.pw
   - DOMAIN-SUFFIX,zinio.com
   - DOMAIN-SUFFIX,zkaip.com
   - DOMAIN-SUFFIX,zmw.cn
