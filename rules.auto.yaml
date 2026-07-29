@@ -115,6 +115,7 @@ payload:
   - DOMAIN-SUFFIX,duomeng.net,REJECT
   - DOMAIN-SUFFIX,duomeng.org,REJECT
   - DOMAIN-SUFFIX,googeadsserving.cn,REJECT
+  - DOMAIN-SUFFIX,gumroad.com,REJECT
   - DOMAIN-SUFFIX,guomob.com,REJECT
   - DOMAIN-SUFFIX,immob.cn,REJECT
   - DOMAIN-SUFFIX,inmobi.com,REJECT
