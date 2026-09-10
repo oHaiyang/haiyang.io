@@ -24,3 +24,4 @@ payload:
   - DOMAIN-SUFFIX,openai.com
   - DOMAIN-SUFFIX,openrouter.ai
   - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,x.ai
